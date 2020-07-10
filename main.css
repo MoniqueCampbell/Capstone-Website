@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{ 
+  color: white;
+  display: inline-block;
+  position: relative; 
+  left: -670px; 
+  top: 10px;
+  font-size: 28px;
+}
+
+button{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  float: right;
+}
+
+button:hover {
+  border: 3px solid blue;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color:blue;
+  background: white;
+  transition: all 0.3s ease 0s;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  background-color: yellow;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  padding: 34px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 45px;
+}
+
+.navbar a:hover {
+  background-color: green;
+  background: red;
+  color: black;
+}
+
+img{
+  width: 100px;
+  height: 90px;
+  float: left;
+  display: block;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.main img{
+  width: 500px;
+  height: 400px;
+  float: left;
+  display: block;
+}
+
+
+
